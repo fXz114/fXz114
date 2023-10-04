@@ -145,6 +145,14 @@ Tab:AddButton({
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 	end
 })
+
+Tab:AddButton({
+  Name = "指令2",
+  Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source"))();
+  end
+})
+
 Tab:AddButton({
 	Name = "踏空行走",
 	Callback = function()
