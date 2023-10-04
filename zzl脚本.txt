@@ -654,3 +654,29 @@ Tab:AddButton({
     loadstring(game:HttpGet("https://pastebin.com/raw/vjTWQ8wW"))();
   end
 })
+
+local Tab = Window:MakeTab({
+	Name = "蜂群模拟器",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+  Name = "1",
+  Callback = function()
+    loadstring(game:GetObjects("rbxassetid://4384103988")[0X1].Source)("Pepsi Swarm")
+  end
+})
+
+local Tab = Window:MakeTab({
+	Name = "法宝模拟器",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+  Name = "1",
+  Callback = function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/loader_1038"))()
+  end
+})
