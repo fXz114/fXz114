@@ -714,19 +714,6 @@ Tab:AddButton({
 })
 
 local Tab = Window:MakeTab({
-	Name = "傻神",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-
-Tab:AddButton({
-  Name = "1",
-  Callback = function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/DilapidatedSage/Helioso-Goofy-Gods/main/Goofy-Gods'))()
-  end
-})
-
-local Tab = Window:MakeTab({
 	Name = "break in2",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
@@ -745,3 +732,4 @@ Tab:AddButton({
      setclipboard("AIRFC")
   	end
 })
+
