@@ -691,26 +691,6 @@ Tab:AddButton({
 })
 
 local Tab = Window:MakeTab({
-	Name = "break in2",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-
-Tab:AddButton({
-  Name = "1",
-  Callback = function()
-    loadstring(game:HttpGet("https://api-sirclub.onrender.com/scripts/raw/MainFile.lua"))()
-  end
-})
-
-Tab:AddButton({
-	Name = "复制卡密",
-	Callback = function()
-     setclipboard("AIRFC")
-  	end
-})
-
-local Tab = Window:MakeTab({
 	Name = "杀手vs警长",
 	Icon = "rbxassetid://4483345998",
 PremiumOnly = false
@@ -722,3 +702,4 @@ Tab:AddButton({
     loadstring(game:HttpGet("https://roflux.net/scripts/games/" .. tostring(game.PlaceId) .. ".lua"))()
   end
 })
+
