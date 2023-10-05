@@ -746,10 +746,10 @@ Tab:AddButton({
   	end
 })
 
-local about = Window:MakeTab({
-    Name = "race clicker",
-    Icon = "rbxassetid://4483345998",
-    PremiumOnly = false
+local Tab = Window:MakeTab({
+	Name = "race cli",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
 })
 
 Tab:AddButton({
