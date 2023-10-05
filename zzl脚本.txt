@@ -42,26 +42,6 @@ local OrionLib = loadstring(game:HttpGet("https://pastebin.com/raw/nJJPrp2w"))()
 local Window = OrionLib:MakeWindow({Name = "zzl脚本", HidePremium = false, IntroText = "zzl脚本"})
 
 local about = Window:MakeTab({
-    Name = "公告",
-    Icon = "rbxassetid://4483345998",
-    PremiumOnly = false
-})
-
-Tab:AddButton({
-	Name = "点击复制作者qq",
-	Callback = function()
-     setclipboard("3555788945")
-  	end
-})
-
-Tab:AddButton({
-	Name = "点击复制qq群",
-	Callback = function()
-     setclipboard("850554330")
-  	end
-})
-
-local about = Window:MakeTab({
     Name = "fXz制作",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
