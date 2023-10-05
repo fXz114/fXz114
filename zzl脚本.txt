@@ -49,6 +49,20 @@ local about = Window:MakeTab({
 
 about:AddParagraph("有卡密的我尽量都帮你们搞好了实在搞不了的只能你们自己获取了")
 
+Tab:AddButton({
+	Name = "点击复制作者qq",
+	Callback = function()
+     setclipboard("3555788945")
+  	end
+})
+
+Tab:AddButton({
+	Name = "点击复制qq群",
+	Callback = function()
+     setclipboard("850554330")
+  	end
+})
+
 local about = Window:MakeTab({
     Name = "fXz制作",
     Icon = "rbxassetid://4483345998",
