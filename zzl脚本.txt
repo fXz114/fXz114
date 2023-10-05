@@ -665,22 +665,6 @@ Tab:AddButton({
 })
 
 local Tab = Window:MakeTab({
-	Name = "杀手VS警长",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-
-Tab:AddButton({
-  Name = "1",
-  Callback = function()
-    _G.Key = "FreeKey2023"
---- https://discord.gg/8gNrnWmgcb
-pcall(function()
-  loadstring(game:HttpGet("https://roflux.net/scripts/games/" .. tostring(game.PlaceId) .. ".lua"))()
-  end
-})
-
-local Tab = Window:MakeTab({
 	Name = "蜂群模拟器",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
