@@ -646,6 +646,20 @@ local Tab = Window:MakeTab({
 Tab:AddButton({
   Name = "1",
   Callback = function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/noSkidlol/Roblox/main/LOADING_UI')))()
+  end
+})
+
+Tab:AddButton({
+	Name = "复制卡密",
+	Callback = function()
+     setclipboard("Key_Illlll1llll")
+  	end
+})
+
+Tab:AddButton({
+  Name = "1",
+  Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/PrimeExoHub/PrimeExo-Hub-Fruit-Battlegrounds-V1/main/script"))()
   end
 })
