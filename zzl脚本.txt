@@ -745,3 +745,16 @@ Tab:AddButton({
      setclipboard("AIRFC")
   	end
 })
+
+local about = Window:MakeTab({
+    Name = "race clicker",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+
+Tab:AddButton({
+  Name = "1",
+  Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/itsnoctural/Utilities/main/Games/Race%20Clicker/source.lua"))()
+  end
+})
