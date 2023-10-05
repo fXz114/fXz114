@@ -47,8 +47,6 @@ local about = Window:MakeTab({
     PremiumOnly = false
 })
 
-about:AddParagraph("有卡密的我尽量都帮你们搞好了实在搞不了的只能你们自己获取了")
-
 Tab:AddButton({
 	Name = "点击复制作者qq",
 	Callback = function()
