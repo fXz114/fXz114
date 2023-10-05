@@ -715,3 +715,9 @@ Tab:AddButton({
   end
 })
 
+Tab:AddButton({
+	Name = "复制卡密",
+	Callback = function()
+     setclipboard("AIRFC")
+  	end
+})
