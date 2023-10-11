@@ -42,12 +42,11 @@ local OrionLib = loadstring(game:HttpGet("https://pastebin.com/raw/nJJPrp2w"))()
 local Window = OrionLib:MakeWindow({Name = "zzl脚本", HidePremium = false, IntroText = "zzl脚本"})
 
 local about = Window:MakeTab({
-    Name = "fXz制作",
+    Name = "公告",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
-about:AddParagraph("fXz制作")
 about:AddParagraph("永远免费")
 about:AddParagraph("适配的游戏有evade 力量传奇 极速传奇 忍者传奇 doors the rake 背上只因剑 bf")
 about:AddParagraph("彩虹朋友 兵工厂 伐木大亨 one fruit 俄亥俄州 监狱人生 手臂摔跤")
