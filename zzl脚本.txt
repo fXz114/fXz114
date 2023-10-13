@@ -606,15 +606,8 @@ local Tab = Window:MakeTab({
 Tab:AddButton({
   Name = "one fruit",
   Callback = function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/mathzsx/souls/main/of", true))()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/13B8B/NEXUS/main/loadstring'))()
   end
-})
-
-Tab:AddButton({
-	Name = "复制卡密",
-	Callback = function()
-     setclipboard("soulsHubOnTopBaby")
-  	end
 })
 
 local Tab = Window:MakeTab({
