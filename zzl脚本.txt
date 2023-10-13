@@ -516,12 +516,6 @@ Tab:AddButton({
 	end
 })
 
-Tab:AddButton({  
-    Name = "龙叔同款",
-	Callback = function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source"))();
-	end
-})
 local Section = Tab:AddSection({
 	Name = "传送位置"
 })
