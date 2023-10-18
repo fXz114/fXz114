@@ -8,3 +8,6 @@ if game.PlaceId == 3101667897 then
 		loadstring(game:HttpGet("https://pastebin.com/raw/YWkZtvCH"))()
 	end
 
+if game.PlaceId == 9872472334 then
+		https://pastebin.com/raw/5LWVP5AL
+	end
