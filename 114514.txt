@@ -1,3 +1,5 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/fXz114/fXz114/main/zzl%20(1).lua"))()
+
 if game.PlaceId == 12639799777 then
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/KrzysztofHub/YoMao/main/gui.lua"))()
 	end
@@ -9,5 +11,3 @@ if game.PlaceId == 3101667897 then
 if game.PlaceId == 9872472334 then
 		https://pastebin.com/raw/5LWVP5AL
 	end
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/fXz114/fXz114/main/zzl%20(1).lua"))()
