@@ -5,6 +5,6 @@ if game.PlaceId == 12639799777 then
 	end
 
 if game.PlaceId == 3101667897 then
-		loadstring(game:HttpGet("https://pastebin.com/raw/mqGPg69N"))()
+		loadstring(game:HttpGet("https://pastebin.com/raw/YWkZtvCH"))()
 	end
 
