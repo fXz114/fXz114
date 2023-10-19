@@ -748,9 +748,9 @@ local Tab = Window:MakeTab({
 })
 
 Tab:AddButton({  
-    Name = "MSdoors",
+    Name = "black king",
 	Callback = function()
-	loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/MSDOORS/main/MSHUB_Loader.lua"),true))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/KINGHUB01/BlackKing/main/BlackKingMb"))()
 	end
 })
 
