@@ -853,6 +853,13 @@ Tab:AddButton({
 })
 
 Tab:AddButton({  
+    Name = "菜单2",
+	Callback = function()
+	loadstring(game:HttpGet("\104\116\116\112\115\58\47\47\115\99\114\105\112\116\115\46\118\105\115\117\114\117\115\46\100\101\118\47\111\104\105\111\47\115\111\117\114\99\101"))()
+	end
+})
+
+Tab:AddButton({  
     Name = "收集物品现金",
 	Callback = function()
 	loadstring(game:HttpGet("https://pastebin.com/raw/1QCwNAXx"))()
