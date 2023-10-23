@@ -701,6 +701,13 @@ Tab:AddButton({
   end
 })
 
+Tab:AddButton({
+  Name = "这个更好用一点",
+  Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/s-o-a-b/nexus/main/loadstring"))()
+  end
+})
+
 local Tab = Window:MakeTab({
 	Name = "evade",
 	Icon = "rbxassetid://11648246803",
