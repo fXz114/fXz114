@@ -708,6 +708,20 @@ Tab:AddButton({
   end
 })
 
+Tab:AddButton({
+  Name = "spam",
+  Callback = function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/c9HVe2z4'))()
+  end
+})
+
+Tab:AddButton({
+  Name = "好用",
+  Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/3345-c-a-t-s-u-s/-beta-/main/AutoParry.lua"))()
+  end
+})
+
 local Tab = Window:MakeTab({
 	Name = "evade",
 	Icon = "rbxassetid://11648246803",
