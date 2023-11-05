@@ -702,9 +702,9 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-  Name = "点击开启自动格挡（配合sapm）",
+  Name = "自动格挡（配合sapm）",
   Callback = function()
-    loadstring(game:HttpGet('https://pastebin.com/raw/5nFAFspz'))()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Hosvile/Refinement/main/MC%3ABlade%20Ball%20Parry%20V4.0.0'))()
   end
 })
 
