@@ -13,9 +13,9 @@ elseif a=="hhddhjfgh"then
 _G.bmd=true
 elseif a=="123iiop1"then
 _G.bmd=true
-elseif a=="用户名"then
+elseif a=="lamnbnbnb"then
 _G.bmd=true
-elseif a=="用户名"then
+elseif a=="duan89t"then
 _G.bmd=true
 elseif a=="用户名"then
 _G.bmd=true
