@@ -695,14 +695,14 @@ local Tab = Window:MakeTab({
 })
 
 Tab:AddButton({
-  Name = "点击开启自动格挡（配合spam）",
+  Name = "点击开启spam",
   Callback = function()
-    getgenv().SpamSpeed = 1 loadstring(game:HttpGet("https://raw.githubusercontent.com/Hosvile/Refinement/main/MC%3ABlade%20Ball%20Spam",true))()
+    getgenv().SpamSpeed = 1 loadstring(game:HttpGet("https://pastebin.com/raw/KB4xQe4j",true))()
   end
 })
 
 Tab:AddButton({
-  Name = "spam",
+  Name = "点击开启自动格挡（配合sapm）",
   Callback = function()
     loadstring(game:HttpGet('https://pastebin.com/raw/5nFAFspz'))()
   end
