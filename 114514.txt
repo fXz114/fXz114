@@ -21,7 +21,7 @@ elseif a=="GW7M6"then
 _G.bmd=true
 elseif a=="Aickdhj7"then
 _G.bmd=true
-elseif a=="11"then
+elseif a=="hzhzdyind000"then
 _G.bmd=true
 elseif a=="1"then
 _G.bmd=true
