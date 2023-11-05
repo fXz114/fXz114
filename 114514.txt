@@ -25,7 +25,7 @@ elseif a=="hzhzdyind000"then
 _G.bmd=true
 elseif a=="123asdfg36"then
 _G.bmd=true
-elseif a=="用户名"then
+elseif a=="1"then
 _G.bmd=true
 elseif a=="用户名"then
 _G.bmd=true
