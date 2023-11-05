@@ -36,3 +36,4 @@ loadstring("https://raw.githubusercontent.com/fXz114/fXz114/main/zzlHub.txt")()
           setclipboard("3555788945")
   game.Players.LocalPlayer:Kick("请您添加qq3555788945获取免费白名单")
 end
+
