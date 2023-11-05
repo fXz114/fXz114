@@ -11,7 +11,7 @@ elseif a=="srg882"then
 _G.bmd=true
 elseif a=="hhddhjfgh"then
 _G.bmd=true
-elseif a=="11"then
+elseif a=="123iiop1"then
 _G.bmd=true
 elseif a=="用户名"then
 _G.bmd=true
