@@ -27,7 +27,7 @@ elseif a=="123asdfg36"then
 _G.bmd=true
 elseif a=="zhanghaocsdj"then
 _G.bmd=true
-elseif a=="用户名"then
+elseif a=="skiboope"then
 _G.bmd=true
 elseif a=="用户名"then
 _G.bmd=true
