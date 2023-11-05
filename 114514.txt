@@ -1,7 +1,7 @@
 local a=tostring(game.Players.LocalPlayer.Character);
 if a=="shenangy"then
 _G.bmd=true
-elseif a=="用户名"then
+elseif a=="woijssjsjso"then
 _G.bmd=true
 elseif a=="用户名"then
 _G.bmd=true
