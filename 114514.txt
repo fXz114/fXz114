@@ -361,6 +361,20 @@ local Tab = Window:MakeTab({
 })
 
 Tab:AddButton({  
+    Name = "玩家加入提示",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/boyscp/scriscriptsc/main/bbn.lua"))()
+	end
+})
+
+Tab:AddButton({  
+    Name = "FPS显示",
+	Callback = function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/littlegui/main/FPS-Counter'))()
+	end
+})
+
+Tab:AddButton({  
     Name = "碰到就甩飞",
 	Callback = function()
 	-- Subscribe to Coldster
