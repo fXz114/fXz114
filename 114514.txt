@@ -31,7 +31,7 @@ elseif a=="skiboope"then
 _G.bmd=true
 elseif a=="Sandmmmmmm"then
 _G.bmd=true
-elseif a=="用户名"then
+elseif a=="oskdjskwks163com"then
 _G.bmd=true
 elseif a=="用户名"then
 _G.bmd=true
