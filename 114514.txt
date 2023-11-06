@@ -67,6 +67,30 @@ elseif a=="用户名"then
 _G.bmd=true
 elseif a=="用户名"then
 _G.bmd=true
+elseif a=="用户名"then
+_G.bmd=true
+elseif a=="用户名"then
+_G.bmd=true
+elseif a=="用户名"then
+_G.bmd=true
+elseif a=="用户名"then
+_G.bmd=true
+elseif a=="用户名"then
+_G.bmd=true
+elseif a=="用户名"then
+_G.bmd=true
+elseif a=="用户名"then
+_G.bmd=true
+elseif a=="用户名"then
+_G.bmd=true
+elseif a=="用户名"then
+_G.bmd=true
+elseif a=="用户名"then
+_G.bmd=true
+elseif a=="用户名"then
+_G.bmd=true
+elseif a=="用户名"then
+_G.bmd=true
 end
 if _G.bmd==true then
 local LBLG = Instance.new("ScreenGui", getParent)
