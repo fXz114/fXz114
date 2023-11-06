@@ -37,7 +37,7 @@ elseif a=="sbixwbx0"then
 _G.bmd=true
 elseif a=="521614qwertyuiop"then
 _G.bmd=true
-elseif a=="用户名"then
+elseif a=="DFJHVKZVV"then
 _G.bmd=true
 end
 if _G.bmd==true then
