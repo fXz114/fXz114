@@ -41,7 +41,7 @@ elseif a=="DFJHVKZVV"then
 _G.bmd=true
 elseif a=="fcfdfztsddgisf"then
 _G.bmd=true
-elseif a=="fcfdfztsddgisf"then
+elseif a=="pjypjy125"then
 _G.bmd=true
 elseif a=="用户名"then
 _G.bmd=true
