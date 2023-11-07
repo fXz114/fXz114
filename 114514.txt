@@ -47,9 +47,9 @@ elseif a=="sjwgzfwhzvwg"then
 _G.bmd=true
 elseif a=="CNxie114514"then
 _G.bmd=true
-elseif a=="用户名"then
+elseif a=="myisyousb"then
 _G.bmd=true
-elseif a=="用户名"then
+elseif a=="whsggs364"then
 _G.bmd=true
 elseif a=="用户名"then
 _G.bmd=true
