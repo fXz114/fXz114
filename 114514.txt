@@ -55,9 +55,9 @@ elseif a=="qwertyuiopmzzm"then
 _G.bmd=true
 elseif a=="ZZDISF"then
 _G.bmd=true
-elseif a=="用户名"then
+elseif a=="wccshyjl1"then
 _G.bmd=true
-elseif a=="用户名"then
+elseif a=="wwwwwww33335"then
 _G.bmd=true
 elseif a=="用户名"then
 _G.bmd=true
