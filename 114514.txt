@@ -1081,6 +1081,13 @@ Tab:AddButton({
 	end
 })
 
+Tab:AddButton({
+	Name = "地图传送",
+	Callback = function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/EurtBNj7'))()
+  	end
+})
+
 local Tab = Window:MakeTab({
 	Name = "彩虹朋友",
 	Icon = "rbxassetid://11648246803",
