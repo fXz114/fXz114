@@ -806,7 +806,7 @@ local Tab = Window:MakeTab({
 Tab:AddButton({
   Name = "点击开启spam",
   Callback = function()
-    getgenv().SpamSpeed = 1 loadstring(game:HttpGet("https://pastebin.com/raw/KB4xQe4j",true))()
+    getgenv().SpamSpeed = 1 loadstring(game:HttpGet("https://pastebin.com/raw/vHNSiYap",true))()
   end
 })
 
