@@ -67,19 +67,19 @@ elseif a=="a145682"then
 _G.bmd=true
 elseif a=="ILIKETAIWANYAYA"then
 _G.bmd=true
-elseif a=="用户名"then
+elseif a=="CN_Fen2"then
 _G.bmd=true
-elseif a=="用户名"then
+elseif a=="CN_Fen"then
 _G.bmd=true
-elseif a=="用户名"then
+elseif a=="jxbjsjxbs456"then
 _G.bmd=true
-elseif a=="用户名"then
+elseif a=="GW7M6"then
 _G.bmd=true
-elseif a=="用户名"then
+elseif a=="ejfjsjsjc"then
 _G.bmd=true
-elseif a=="用户名"then
+elseif a=="hdvdjsb0"then
 _G.bmd=true
-elseif a=="用户名"then
+elseif a=="136skdoa"then
 _G.bmd=true
 elseif a=="用户名"then
 _G.bmd=true
