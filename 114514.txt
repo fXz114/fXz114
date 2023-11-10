@@ -804,16 +804,9 @@ local Tab = Window:MakeTab({
 })
 
 Tab:AddButton({
-  Name = "点击开启spam",
+  Name = "点击启动zzl刀刃球",
   Callback = function()
-    getgenv().SpamSpeed = 1 loadstring(game:HttpGet("https://pastebin.com/raw/thZLvJPV",true))()
-  end
-})
-
-Tab:AddButton({
-  Name = "自动格挡（配合sapm）",
-  Callback = function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/Hosvile/Refinement/main/MC%3ABlade%20Ball%20Parry%20V4.0.0'))()
+    loadstring(game:HttpGet("https://pastebin.com/raw/49pHahaW"))()
   end
 })
 
