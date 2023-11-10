@@ -1242,6 +1242,9 @@ Tab:AddButton({
     loadstring(game:HttpGet(('https://pastebin.com/raw/8JY69pFp')))()
   end
 })
+
+if game.PlaceId == 9872472334 then
+loadstring(game:HttpGet("https://pastebin.com/raw/gD0ipYyi"))()
       else
           setclipboard("3555788945")
   game.Players.LocalPlayer:Kick("请您添加qq3555788945获取免费白名单")
