@@ -81,7 +81,7 @@ elseif a=="hdvdjsb0"then
 _G.bmd=true
 elseif a=="136skdoa"then
 _G.bmd=true
-elseif a=="用户名"then
+elseif a=="Yitianlai"then
 _G.bmd=true
 elseif a=="用户名"then
 _G.bmd=true
