@@ -97,7 +97,7 @@ elseif a=="zllk12"then
 _G.bmd=true
 elseif a=="gfyfhghggg"then
 _G.bmd=true
-elseif a=="用户名"then
+elseif a=="ydauzcik"then
 _G.bmd=true
 elseif a=="用户名"then
 _G.bmd=true
