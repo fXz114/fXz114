@@ -67,9 +67,9 @@ elseif a=="a145682"then
 _G.bmd=true
 elseif a=="ILIKETAIWANYAYA"then
 _G.bmd=true
-elseif a=="CN_Fen2"then
+elseif a=="用户名"then
 _G.bmd=true
-elseif a=="CN_Fen"then
+elseif a=="用户名"then
 _G.bmd=true
 elseif a=="jxbjsjxbs456"then
 _G.bmd=true
