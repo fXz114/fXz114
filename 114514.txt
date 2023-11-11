@@ -83,7 +83,13 @@ elseif a=="136skdoa"then
 _G.bmd=true
 elseif a=="Yitianlai"then
 _G.bmd=true
-elseif a=="用户名"then
+elseif a=="ljknbhjnoihvr"then
+_G.bmd=true
+elseif a=="poasanso"then
+_G.bmd=true
+elseif a=="xisjwc"then
+_G.bmd=true
+elseif a=="kebdujdhbs"then
 _G.bmd=true
 elseif a=="用户名"then
 _G.bmd=true
