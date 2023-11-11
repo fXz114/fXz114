@@ -67,7 +67,7 @@ elseif a=="a145682"then
 _G.bmd=true
 elseif a=="ILIKETAIWANYAYA"then
 _G.bmd=true
-elseif a=="用户名"then
+elseif a=="HJ556NK"then
 _G.bmd=true
 elseif a=="用户名"then
 _G.bmd=true
