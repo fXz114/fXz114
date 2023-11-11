@@ -69,7 +69,7 @@ elseif a=="ILIKETAIWANYAYA"then
 _G.bmd=true
 elseif a=="HJ556NK"then
 _G.bmd=true
-elseif a=="用户名"then
+elseif a=="XDNBYYDS"then
 _G.bmd=true
 elseif a=="jxbjsjxbs456"then
 _G.bmd=true
@@ -90,6 +90,22 @@ _G.bmd=true
 elseif a=="xisjwc"then
 _G.bmd=true
 elseif a=="kebdujdhbs"then
+_G.bmd=true
+elseif a=="renji_ohio2"then
+_G.bmd=true
+elseif a=="用户名"then
+_G.bmd=true
+elseif a=="用户名"then
+_G.bmd=true
+elseif a=="用户名"then
+_G.bmd=true
+elseif a=="用户名"then
+_G.bmd=true
+elseif a=="用户名"then
+_G.bmd=true
+elseif a=="用户名"then
+_G.bmd=true
+elseif a=="用户名"then
 _G.bmd=true
 elseif a=="用户名"then
 _G.bmd=true
