@@ -93,9 +93,9 @@ elseif a=="kebdujdhbs"then
 _G.bmd=true
 elseif a=="renji_ohio2"then
 _G.bmd=true
-elseif a=="用户名"then
+elseif a=="zllk12"then
 _G.bmd=true
-elseif a=="用户名"then
+elseif a=="gfyfhghggg"then
 _G.bmd=true
 elseif a=="用户名"then
 _G.bmd=true
@@ -1200,6 +1200,13 @@ if game.PlaceId == 155615604 then
 		loadstring(game:HttpGet("https://pastebin.com/raw/Y3zzJ2WN"))()
 	end
 
+if game.PlaceId == 9872472334 then
+		loadstring(game:HttpGet("https://pastebin.com/raw/5LWVP5AL"))()
+	end
+
+if game.PlaceId == 3101667897 then
+		loadstring(game:HttpGet("https://pastebin.com/raw/vE8x0eHm"))()
+	end
       else
           setclipboard("3555788945")
   game.Players.LocalPlayer:Kick("请您添加qq3555788945获取免费白名单")
