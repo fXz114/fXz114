@@ -118,20 +118,16 @@ if _G.bmd==true then
 if game.PlaceId == 13772394625 then
 loadstring(game:HttpGet("https://pastebin.com/raw/49pHahaW"))()
 	end
-
-if game.PlaceId == 155615604 then
+elseif game.PlaceId == 155615604 then
 loadstring(game:HttpGet("https://pastebin.com/raw/Y3zzJ2WN"))()
 	end
-
-if game.PlaceId == 9872472334 then
+elseif game.PlaceId == 9872472334 then
 loadstring(game:HttpGet("https://pastebin.com/raw/5LWVP5AL"))()
 	end
-
-if game.PlaceId == 3101667897 then
+elseif game.PlaceId == 3101667897 then
 loadstring(game:HttpGet("https://pastebin.com/raw/vE8x0eHm"))()
 	end
-      else
-
+else
 local LBLG = Instance.new("ScreenGui", getParent)
 local LBL = Instance.new("TextLabel", getParent)
 local player = game.Players.LocalPlayer
