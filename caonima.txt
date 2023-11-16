@@ -7,5 +7,5 @@ elseif game.PlaceId == 9872472334 then
 elseif game.PlaceId == 3101667897 then
     loadstring(game:HttpGet("https://pastebin.com/raw/vE8x0eHm"))()
 else
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/fXz114/fXz114/main/zzl.lua"))()
+    loadstring(game:HttpGet("https://pastebin.com/raw/5MBgmksb"))()
 end
