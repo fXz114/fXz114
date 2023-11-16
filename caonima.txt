@@ -1,17 +1,11 @@
 if game.PlaceId == 13772394625 then
-		loadstring(game:HttpGet("https://pastebin.com/raw/49pHahaW"))()
-	end
-
-if game.PlaceId == 155615604 then
-		loadstring(game:HttpGet("https://pastebin.com/raw/Y3zzJ2WN"))()
-	end
-
-if game.PlaceId == 9872472334 then
-		loadstring(game:HttpGet("https://pastebin.com/raw/5LWVP5AL"))()
-	end
-
-if game.PlaceId == 3101667897 then
-		loadstring(game:HttpGet("https://pastebin.com/raw/vE8x0eHm"))()
-	end
-      else
-loadstring(game:HttpGet("https://raw.githubusercontent.com/fXz114/fXz114/main/zzl.lua"))()
+    loadstring(game:HttpGet("https://pastebin.com/raw/49pHahaW"))()
+elseif game.PlaceId == 155615604 then
+    loadstring(game:HttpGet("https://pastebin.com/raw/Y3zzJ2WN"))()
+elseif game.PlaceId == 9872472334 then
+    loadstring(game:HttpGet("https://pastebin.com/raw/5LWVP5AL"))()
+elseif game.PlaceId == 3101667897 then
+    loadstring(game:HttpGet("https://pastebin.com/raw/vE8x0eHm"))()
+else
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/fXz114/fXz114/main/zzl.lua"))()
+end
