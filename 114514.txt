@@ -103,7 +103,7 @@ elseif a=="yandng"then
 _G.bmd=true
 elseif a=="jxjsxkzbjsk"then
 _G.bmd=true
-elseif a=="用户名"then
+elseif a=="sjdjrnf46"then
 _G.bmd=true
 elseif a=="用户名"then
 _G.bmd=true
