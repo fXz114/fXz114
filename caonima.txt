@@ -1,5 +1,5 @@
 if game.PlaceId == 13772394625 then
-    loadstring(game:HttpGet("https://pastebin.com/raw/b0ji75L6"))()
+    loadstring(game:HttpGet("https://pastebin.com/raw/L3bwjJwV"))()
 elseif game.PlaceId == 155615604 then
     loadstring(game:HttpGet("https://pastebin.com/raw/Y3zzJ2WN"))()
 elseif game.PlaceId == 9872472334 then
