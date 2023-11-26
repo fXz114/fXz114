@@ -107,7 +107,7 @@ elseif a=="sjdjrnf46"then
 _G.bmd=true
 elseif a=="qweertas8"then
 _G.bmd=true
-elseif a=="用户名"then
+elseif a=="NG_ewi"then
 _G.bmd=true
 elseif a=="用户名"then
 _G.bmd=true
