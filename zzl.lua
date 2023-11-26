@@ -711,7 +711,7 @@ local Tab = Window:MakeTab({
 Tab:AddButton({
   Name = "点击启动zzl刀刃球",
   Callback = function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/49pHahaW"))()
+    loadstring(game:HttpGet("https://pastebin.com/raw/EUiEysdP"))()
   end
 })
 
@@ -885,19 +885,6 @@ Tab:AddButton({
 	Callback = function()
 	loadstring(game:HttpGet("https://pastebin.com/raw/1QCwNAXx"))()
 	end
-})
-
-local Tab = Window:MakeTab({
-	Name = "监狱人生",
-	Icon = "rbxassetid://11648246803",
-	PremiumOnly = false
-})
-
-Tab:AddButton({
-	Name = "点击开启zzl监狱人生",
-	Callback = function()
-	loadstring(game:HttpGet('https://pastebin.com/raw/Y3zzJ2WN'))()
-  	end
 })
 
 local Tab = Window:MakeTab({
