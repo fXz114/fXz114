@@ -11,3 +11,4 @@ elseif game.PlaceId == 73885730 then
 else
     loadstring(game:HttpGet("https://pastebin.com/raw/KPbZz9Nj"))()
 end
+
