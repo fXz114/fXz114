@@ -1,1 +1,1 @@
-loadstring(game:HttpGet(('https://raw.githubusercontent.com/fXz114/fXz114/main/sonofbeach.txt'),true))()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/fXz114/fXz114/main/xiangwopoyuanma%3F.txt'),true))()
