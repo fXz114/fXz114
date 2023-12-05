@@ -126,9 +126,9 @@ loadstring(game:HttpGet("https://pastebin.com/raw/MHE1cbWF"))()
 })
 
 Tab:AddButton({
-	Name = "爬墙",
+	Name = "shift lock",
 	Callback = function()
-loadstring(game:HttpGet("https://pastebin.com/raw/zXk4Rq2r"))()
+loadstring(game:HttpGet("https://pastebin.com/raw/Uibs9vTq"))()
 end
 })
 
