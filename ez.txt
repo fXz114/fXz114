@@ -117,7 +117,9 @@ elseif a=="acc_peigen"then
 _G.bmd=true
 elseif a=="zsb656555"then
 _G.bmd=true
-elseif a=="用户名"then
+elseif a=="qwessyu"then
+_G.bmd=true
+elseif a=="cgddtjv"then
 _G.bmd=true
 end
 if _G.bmd==true then
