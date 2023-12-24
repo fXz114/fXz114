@@ -1,0 +1,426 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/nahida-cn/Roblox/main/UI.lua"))()
+
+local Window = Library:Window("zzl", "力量传奇")
+
+Player = Window:Tab("主要功能")
+
+function c()
+	for i, v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
+		if
+			v.ClassName == "Tool" and v.Name == "Handstands" or v.Name == "Situps" or v.Name == "Pushups" or
+			v.Name == "Weight"
+		then
+			v:FindFirstChildOfClass("NumberValue").Value = 0
+			repeat
+				wait()
+			until game.Players.LocalPlayer.Backpack:FindFirstChildOfClass("Tool")
+			game.Players.LocalPlayer.Character:WaitForChild("Humanoid"):EquipTool(v)
+		end
+	end
+end
+
+farming = false
+
+Player:Toggle("自动锻炼", false, function(Value)
+    farming = Value
+		game:GetService("RunService").Stepped:connect(
+		function()
+			pcall(
+				function()
+					if farming then
+						game.Players.LocalPlayer.Character.Humanoid:ChangeState(11)
+					end
+				end
+			)
+		end
+		)
+		spawn(function()
+			while farming do
+				wait()
+				pcall(
+					function()
+						game:GetService("Players").LocalPlayer.muscleEvent:FireServer("rep")
+						c()
+						game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(9e9,9e9,9e9)
+						if not farming then
+							game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(0, 0, 0)
+						end
+					end
+				)
+			end
+		end)
+end)
+
+rebirth = false
+
+Player:Toggle("自动重生", false, function(Value)
+    rebirth = Value
+		spawn(function()
+			while rebirth do
+				wait(0.1)
+				game:GetService("ReplicatedStorage").rEvents.rebirthRemote:InvokeServer("rebirthRequest")
+			end
+		end)
+end)
+
+jk = {}
+
+for _, v in pairs(game:GetService("ReplicatedStorage").chestRewards:GetDescendants()) do
+	if v.Name ~= "Light Karma Chest" or v.Name ~= "Evil Karma Chest" then
+		table.insert(jk, v.Name)
+	end
+end
+
+local function getAllChests()
+	for i, chestName in ipairs(jk) do
+		game:GetService("ReplicatedStorage").rEvents.checkChestRemote:InvokeServer(chestName)
+		wait(2)
+	end
+end
+
+br = false
+
+Player:Toggle("刷业报（配合自动挥拳）", false, function(Value)
+    br = Value
+		while br do
+			local randomPlayer = game.Players:GetPlayers()[math.random(1, #game.Players:GetPlayers())]
+			wait(0.2)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame =
+				CFrame.new(
+					Vector3.new(
+						randomPlayer.Character.Head.Position.X,
+						randomPlayer.Character.Head.Position.Y,
+						randomPlayer.Character.Head.Position.Z
+					)
+				)
+		end
+end)
+
+autopunch = false
+
+Player:Toggle("自动挥拳", false, function(Value)
+    autopunch = Value
+		game:GetService("RunService").Stepped:connect(
+		function()
+			pcall(
+				function()
+					if autopunch then
+						game.Players.LocalPlayer.Character.Humanoid:ChangeState(11)
+						game:GetService("Players").LocalPlayer.muscleEvent:FireServer("punch", "leftHand")
+						game:GetService("Players").LocalPlayer.muscleEvent:FireServer("punch", "rightHand")
+						if autopunch then
+							game.Players.LocalPlayer.Character.Humanoid:EquipTool(
+								game:GetService("Players").LocalPlayer.Backpack.Punch
+							)
+						end
+					end
+
+				end
+			)
+		end
+		)
+end)
+
+noCD = false
+punchCooldown = 0.35
+
+Player:Toggle("挥拳无间隔", false, function(Value)
+    noCD = Value
+		if noCD then
+			game:GetService("Players").LocalPlayer.Backpack.Punch:FindFirstChildOfClass("NumberValue").Value = 0
+		else
+			game:GetService("Players").LocalPlayer.Backpack.Punch:FindFirstChildOfClass("NumberValue").Value = punchCooldown
+		end
+end)
+
+Bugpet = Window:Tab("卡宠区")
+
+local autorocks0 = false
+
+Bugpet:Toggle("0耐力石头自动打", false, function(Value)
+    autorocks0 = Value
+		game:GetService("RunService").Stepped:connect(
+		function()
+			pcall(
+				function()
+					if autorocks0 then
+						game.Players.LocalPlayer.Character.Humanoid:ChangeState(11)
+						game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(17.6, 3.8, 2119.2)
+						game:GetService("Players").LocalPlayer.muscleEvent:FireServer("punch", "leftHand")
+						game:GetService("Players").LocalPlayer.muscleEvent:FireServer("punch", "rightHand")
+						game.Players.LocalPlayer.Character.Humanoid:EquipTool(
+							game:GetService("Players").LocalPlayer.Backpack.Punch
+						)
+					end
+				end
+			)
+		end
+		)
+end)
+
+local autorocks10 = false
+
+Bugpet:Toggle("10耐力石头自动打", false, function(Value)
+    autorocks10 = Value
+		game:GetService("RunService").Stepped:connect(
+		function()
+			pcall(
+				function()
+					if autorocks10 then
+						game.Players.LocalPlayer.Character.Humanoid:ChangeState(11)
+						game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-151.0, 3.7, 438.5)
+						game:GetService("Players").LocalPlayer.muscleEvent:FireServer("punch", "leftHand")
+						game:GetService("Players").LocalPlayer.muscleEvent:FireServer("punch", "rightHand")
+						game.Players.LocalPlayer.Character.Humanoid:EquipTool(
+							game:GetService("Players").LocalPlayer.Backpack.Punch
+						)
+					end
+				end
+			)
+		end
+		)
+end)
+
+local autorocks100 = false
+
+Bugpet:Toggle("10耐力石头自动打", false, function(Value)
+    autorocks10 = Value
+		game:GetService("RunService").Stepped:connect(
+		function()
+			pcall(
+				function()
+					if autorocks10 then
+						game.Players.LocalPlayer.Character.Humanoid:ChangeState(11)
+						game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-151.0, 3.7, 438.5)
+						game:GetService("Players").LocalPlayer.muscleEvent:FireServer("punch", "leftHand")
+						game:GetService("Players").LocalPlayer.muscleEvent:FireServer("punch", "rightHand")
+						game.Players.LocalPlayer.Character.Humanoid:EquipTool(
+							game:GetService("Players").LocalPlayer.Backpack.Punch
+						)
+					end
+				end
+			)
+		end
+		)
+end)
+
+autorocks5k = false
+
+Bugpet:Toggle("5k耐力石头自动打", false, function(Value)
+    autorocks5k = Value
+		game:GetService("RunService").Stepped:connect(
+		function()
+			pcall(
+				function()
+					if autorocks5k then
+						game.Players.LocalPlayer.Character.Humanoid:ChangeState(11)
+						game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(299.9, 3.7, -563.6)
+						game:GetService("Players").LocalPlayer.muscleEvent:FireServer("punch", "leftHand")
+						game:GetService("Players").LocalPlayer.muscleEvent:FireServer("punch", "rightHand")
+						game.Players.LocalPlayer.Character.Humanoid:EquipTool(
+							game:GetService("Players").LocalPlayer.Backpack.Punch
+						)
+					end
+				end
+			)
+		end
+		)
+end)
+
+autorocks150k = false
+
+Bugpet:Toggle("150k耐力石头自动打", false, function(Value)
+    autorocks150k = Value
+		game:GetService("RunService").Stepped:connect(
+		function()
+			pcall(
+				function()
+					if autorocks150k then
+						game.Players.LocalPlayer.Character.Humanoid:ChangeState(11)
+						game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2557.7, 3.7, -202.3)
+						game:GetService("Players").LocalPlayer.muscleEvent:FireServer("punch", "leftHand")
+						game:GetService("Players").LocalPlayer.muscleEvent:FireServer("punch", "rightHand")
+						game.Players.LocalPlayer.Character.Humanoid:EquipTool(
+							game:GetService("Players").LocalPlayer.Backpack.Punch
+						)
+					end
+				end
+			)
+		end
+		)
+end)
+
+autorocks400k = false
+
+Bugpet:Toggle("400k耐力石头自动打", false, function(Value)
+    autorocks400k = Value
+		game:GetService("RunService").Stepped:connect(
+		function()
+			pcall(
+				function()
+					if autorocks400k then
+						game.Players.LocalPlayer.Character.Humanoid:ChangeState(11)
+						game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2182.3, 3.7, 1292.7)
+						game:GetService("Players").LocalPlayer.muscleEvent:FireServer("punch", "leftHand")
+						game:GetService("Players").LocalPlayer.muscleEvent:FireServer("punch", "rightHand")
+						game.Players.LocalPlayer.Character.Humanoid:EquipTool(
+							game:GetService("Players").LocalPlayer.Backpack.Punch
+						)
+					end
+				end
+			)
+		end
+		)
+end)
+
+autorocks750k = false
+
+Bugpet:Toggle("750k耐力石头自动打", false, function(Value)
+    autorocks750k = Value
+		game:GetService("RunService").Stepped:connect(
+		function()
+			pcall(
+				function()
+					if autorocks750k then
+						game.Players.LocalPlayer.Character.Humanoid:ChangeState(11)
+						game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-7263.5, 3.7, -1217.2)
+						game:GetService("Players").LocalPlayer.muscleEvent:FireServer("punch", "leftHand")
+						game:GetService("Players").LocalPlayer.muscleEvent:FireServer("punch", "rightHand")
+						game.Players.LocalPlayer.Character.Humanoid:EquipTool(
+							game:GetService("Players").LocalPlayer.Backpack.Punch
+						)
+					end
+				end
+			)
+		end
+		)
+end)
+
+autorocks1M = false
+
+Bugpet:Toggle("1M耐力石头自动打", false, function(Value)
+    autorocks1M = Value
+		game:GetService("RunService").Stepped:connect(
+		function()
+			pcall(
+				function()
+					if autorocks1M then
+						game.Players.LocalPlayer.Character.Humanoid:ChangeState(11)
+						game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(4144.3, 987.9, -4032.2)
+						game:GetService("Players").LocalPlayer.muscleEvent:FireServer("punch", "leftHand")
+						game:GetService("Players").LocalPlayer.muscleEvent:FireServer("punch", "rightHand")
+						game.Players.LocalPlayer.Character.Humanoid:EquipTool(
+							game:GetService("Players").LocalPlayer.Backpack.Punch
+						)
+					end
+				end
+			)
+		end
+		)
+end)
+
+autorocks5M = false
+
+Bugpet:Toggle("5M耐力石头自动打", false, function(Value)
+    autorocks5M = Value
+		game:GetService("RunService").Stepped:connect(
+		function()
+			pcall(
+				function()
+					if autorocks5M then
+						game.Players.LocalPlayer.Character.Humanoid:ChangeState(11)
+						game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-8966.7, 13.6, -5988.1)
+						game:GetService("Players").LocalPlayer.muscleEvent:FireServer("punch", "leftHand")
+						game:GetService("Players").LocalPlayer.muscleEvent:FireServer("punch", "rightHand")
+						game.Players.LocalPlayer.Character.Humanoid:EquipTool(
+							game:GetService("Players").LocalPlayer.Backpack.Punch
+						)
+					end
+				end
+			)
+		end
+		)
+end)
+
+Strong = Window:Tab("锻炼功能（传奇健身房）")
+
+Legends = false
+
+strong:Toggle("巨石", false, function(Value)
+    Legends = Value
+		if Legends then
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(4247.6, 987.9, -3613.6)
+
+			while Legends  do
+				wait(0.25)
+				game:GetService("ReplicatedStorage").rEvents.machineInteractRemote:InvokeServer("useMachine", workspace.machinesFolder["Legends Throw"].interactSeat)
+				game:GetService("Players").LocalPlayer.muscleEvent:FireServer("rep", workspace.machinesFolder["Legends Throw"].interactSeat)
+				wait(0.25)	
+			end	
+		end
+end)
+
+Pull3 = false
+
+strong:Toggle("引体向上", false, function(Value)
+    Pull3 = Value
+		if Pull3  then
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(4511.9, 987.9, -3635.0)
+
+			while Pull3  do
+				wait(0.25)
+				game:GetService("ReplicatedStorage").rEvents.machineInteractRemote:InvokeServer("useMachine", workspace.machinesFolder["Legends Pullup"].interactSeat)
+				game:GetService("Players").LocalPlayer.muscleEvent:FireServer("rep", workspace.machinesFolder["Legends Pullup"].interactSeat)
+				wait(0.25)
+			end
+		end
+end)
+
+Press4 = false
+
+strong:Toggle("仰卧推举", false, function(Value)
+    Press4 = Value
+		if Press4  then
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(4109.8, 1020.9, -3800.8)
+
+			while Press4  do
+				wait(0.25)
+				game:GetService("ReplicatedStorage").rEvents.machineInteractRemote:InvokeServer("useMachine", workspace.machinesFolder["Legends Press"].interactSeat)
+				game:GetService("Players").LocalPlayer.muscleEvent:FireServer("rep", workspace.machinesFolder["Legends Press"].interactSeat)
+				wait(0.25)
+			end
+		end
+end)
+
+King = Window:Tab("锻炼功能（力量之王）")
+
+King = false
+
+King:Toggle("巨石", false, function(Value)
+    King = Value
+		if King then
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-8950.3, 62.9, -5701.4)
+
+			while King  do
+				wait(0.25)
+				game:GetService("Players").LocalPlayer.muscleEvent:FireServer("rep", workspace.machinesFolder["King Boulder"].interactSeat)
+				wait(0.25)	
+			end
+		end
+end)
+
+Press5 = false
+
+King:Toggle("仰卧推举", false, function(Value)
+    Press5 = Value
+		if Press5  then
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-8593.0, 46.4, -6042.8)
+
+			while Press5 do
+				wait(0.25)
+				game:GetService("ReplicatedStorage").rEvents.machineInteractRemote:InvokeServer("useMachine", workspace.machinesFolder["Muscle King Bench"].interactSeat)
+				game:GetService("Players").LocalPlayer.muscleEvent:FireServer("rep", workspace.machinesFolder["Muscle King Bench"].interactSeat)
+				wait(0.25)
+			end
+		end
+end)
