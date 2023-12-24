@@ -12,6 +12,8 @@ elseif game.PlaceId == 3085257211 then
     loadstring(game:HttpGet("https://pastebin.com/raw/mtzN2YDv"))()
 elseif game.PlaceId == 189707 then
     loadstring(game:HttpGet("https://pastebin.com/raw/ZxzW8LyS"))()
+elseif game.PlaceId == 3623096087 then
+    loadstring(game:HttpGet("https://pastebin.com/raw/ifuU4GEa"))()
 else
     loadstring(game:HttpGet("https://pastebin.com/raw/KPbZz9Nj"))()
 end
