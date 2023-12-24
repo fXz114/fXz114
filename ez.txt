@@ -123,6 +123,24 @@ elseif a=="cgddtjv"then
 _G.bmd=true
 elseif a=="qixing013"then
 _G.bmd=true
+elseif a=="5b57fb3c593818f"then
+_G.bmd=true
+elseif a=="用户名"then
+_G.bmd=true
+elseif a=="用户名"then
+_G.bmd=true
+elseif a=="用户名"then
+_G.bmd=true
+elseif a=="用户名"then
+_G.bmd=true
+elseif a=="用户名"then
+_G.bmd=true
+elseif a=="用户名"then
+_G.bmd=true
+elseif a=="用户名"then
+_G.bmd=true
+elseif a=="用户名"then
+_G.bmd=true
 end
 if _G.bmd==true then
 loadstring(game:HttpGet('https://raw.githubusercontent.com/fXz114/fXz114/main/obf_jt3BOOclqRK6KOQucu30UHkf2GdbjR2h8L6XE1Vx9z599a9d7SkfpQybg4GFeU90.lua.txt'))()
