@@ -51,7 +51,7 @@ about:AddParagraph("永远免费")
 about:AddParagraph("适配的游戏有evade 力量传奇 极速传奇 忍者传奇 doors the rake 背上只因剑 bf")
 about:AddParagraph("彩虹朋友 兵工厂 伐木大亨 one fruit 俄亥俄州 监狱人生 手臂摔跤")
 about:AddParagraph("更新：元素地下城 水果战场 蜂群模拟器 法宝模拟器 傻神 杀手vs警长 race clik")
-about:AddParagraph("更新：刀刃球 scp3008")
+about:AddParagraph("更新：刀刃球 scp3008 彩虹朋友")
 about:AddParagraph("作者qq：3555788945")
 
 local Tab = Window:MakeTab({
@@ -703,56 +703,9 @@ loadstring(game:HttpGet("\104\116\116\112\115\58\47\47\112\97\115\116\101\98\105
 })
 
 local Tab = Window:MakeTab({
-	Name = "刀刃球",
-	Icon = "rbxassetid://11648246803",
-	PremiumOnly = false
-})
-
-Tab:AddButton({
-  Name = "点击启动zzl刀刃球",
-  Callback = function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/EUiEysdP"))()
-  end
-})
-
-Tab:AddButton({
-  Name = "好用",
-  Callback = function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/3345-c-a-t-s-u-s/-beta-/main/AutoParry.lua"))()
-  end
-})
-
-local Tab = Window:MakeTab({
-	Name = "evade",
-	Icon = "rbxassetid://11648246803",
-	PremiumOnly = false
-})
-
-Tab:AddButton({  
-    Name = "evade",
-	Callback = function()
-	loadstring(game:HttpGet("https://pastebin.com/raw/5LWVP5AL"))()
-	end
-})
-
-local Tab = Window:MakeTab({
 	Name = "传奇类游戏",
 	Icon = "rbxassetid://11648246803",
 	PremiumOnly = false
-})
-
-Tab:AddButton({  
-    Name = "力量传奇",
-	Callback = function()
-	loadstring(game:HttpGet(('https://raw.githubusercontent.com/ahmadsgamer2/Script--Game/main/Muscle-Legends'),true))()
-	end
-})
-
-Tab:AddButton({  
-    Name = "极速传奇",
-	Callback = function()
-	loadstring(game:HttpGet("https://pastebin.com/raw/vE8x0eHm"))()
-	end
 })
 
 Tab:AddButton({  
@@ -907,18 +860,6 @@ Tab:AddButton({
   	end
 })
 
-local Tab = Window:MakeTab({
-	Name = "彩虹朋友",
-	Icon = "rbxassetid://11648246803",
-	PremiumOnly = false
-})
-
-Tab:AddButton({
-  Name = "彩虹朋友",
-  Callback = function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/Ihaveash0rtnamefordiscord/BorkWare/main/Scripts/' .. game.GameId .. ".lua"))(' Watermelon ? ')
-  end
-})
 local Tab = Window:MakeTab({
 	Name = "兵工厂",
 	Icon = "rbxassetid://11648246803",
