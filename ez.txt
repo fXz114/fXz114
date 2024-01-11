@@ -127,7 +127,7 @@ elseif a=="5b57fb3c593818f"then
 _G.bmd=true
 elseif a=="w_uneng"then
 _G.bmd=true
-elseif a=="用户名"then
+elseif a=="gtjycrx"then
 _G.bmd=true
 elseif a=="用户名"then
 _G.bmd=true
