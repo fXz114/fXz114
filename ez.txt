@@ -145,6 +145,6 @@ end
 if _G.bmd==true then
 loadstring(game:HttpGet('https://raw.githubusercontent.com/fXz114/fXz114/main/obf_jt3BOOclqRK6KOQucu30UHkf2GdbjR2h8L6XE1Vx9z599a9d7SkfpQybg4GFeU90.lua.txt'))()
       else
-          setclipboard("3555788945")
-  game.Players.LocalPlayer:Kick("请您添加qq3555788945获取免费白名单")
+          setclipboard("850554330")
+  game.Players.LocalPlayer:Kick("脚本已停运，请添加群聊获取最新脚本（群号已复制）")
 end
