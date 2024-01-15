@@ -1002,3 +1002,16 @@ Tab:AddButton({
     loadstring(game:HttpGet(('https://pastebin.com/raw/8JY69pFp')))()
   end
 })
+
+local Tab = Window:MakeTab({
+	Name = "rainbow frined",
+	Icon = "rbxassetid://11648246803",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+  Name = "1",
+  Callback = function()
+    loadstring(game:HttpGet(('https://pastebin.com/raw/mtzN2YDv')))()
+  end
+})
