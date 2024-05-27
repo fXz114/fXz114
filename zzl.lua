@@ -280,7 +280,7 @@ Tab:AddButton({
 })
 
 Tab:AddButton({  
-    Name = "碰到就甩飞",
+    Name = "碰到甩飞（别人碰你就飞）",
 	Callback = function()
 	-- Subscribe to Coldster
 -- https://discord.gg/4EbnAbXDPY
@@ -295,31 +295,11 @@ Tab:AddButton({
       end
 })
 
-Tab:AddToggle({
-	Name = "穿墙",
-	Default = false,
-	Callback = function(Value)
-		if Value then
-		    Noclip = true
-		    Stepped = game.RunService.Stepped:Connect(function()
-			    if Noclip == true then
-				    for a, b in pairs(game.Workspace:GetChildren()) do
-                        if b.Name == game.Players.LocalPlayer.Name then
-                            for i, v in pairs(game.Workspace[game.Players.LocalPlayer.Name]:GetChildren()) do
-                                if v:IsA("BasePart") then
-                                    v.CanCollide = false
-                                end
-                            end
-                        end
-                    end
-			    else
-				    Stepped:Disconnect()
-			    end
-		    end)
-	    else
-		    Noclip = false
-	    end
-	end
+Tab:AddButton({
+      Name = "穿墙",
+      Callback = function()
+       loadstring(game:HttpGet("https://pastebin.com/raw/6T4skKuj", true))()
+      end
 })
 
 Tab:AddToggle({
