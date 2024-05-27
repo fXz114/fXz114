@@ -38,7 +38,7 @@ CurrentFPS = CurrentFPS - CurrentFPS % 1
 end
 Start = tick()
 Heartbeat:Connect(HeartbeatUpdate)
-local OrionLib = loadstring(game:HttpGet("https://pastebin.com/raw/nJJPrp2w"))()
+local OrionLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/XiaoYunCN/LOL/main/Orion.lua", true))()
 local Window = OrionLib:MakeWindow({Name = "zzl脚本", HidePremium = false, IntroText = "zzl脚本"})
 
 local about = Window:MakeTab({
