@@ -51,7 +51,7 @@ about:AddParagraph("永远免费")
 about:AddParagraph("适配的游戏有evade 力量传奇 极速传奇 忍者传奇 doors the rake 背上只因剑 bf")
 about:AddParagraph("彩虹朋友 兵工厂 伐木大亨 one fruit 俄亥俄州 监狱人生 手臂摔跤")
 about:AddParagraph("更新：元素地下城 水果战场 蜂群模拟器 法宝模拟器 傻神 杀手vs警长 race clik")
-about:AddParagraph("更新：刀刃球 scp3008 彩虹朋友")
+about:AddParagraph("部分游戏功能已不可用")
 about:AddParagraph("作者qq：3555788945")
 
 local Tab = Window:MakeTab({
@@ -241,7 +241,7 @@ Tab:AddButton({
 Tab:AddButton({  
     Name = "范围(全游戏通用)",
 	Callback = function()
-	loadstring(game:HttpGet("https://pastebin.com/raw/dMiziBzT"))()
+	loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Update-script-hitbox-9326"))()
 	end
 })
 
