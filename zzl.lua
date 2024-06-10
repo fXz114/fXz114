@@ -48,7 +48,8 @@ local about = Window:MakeTab({
 })
 
 about:AddParagraph("永远免费")
-about:AddParagraph("部分垃圾功能已删除，大家可以给我提供一些功能")
+about:AddParagraph("部分垃圾功能已删除，加入群聊以获取最新脚本")
+about:AddParagraph("群聊：965304509")
 
 
 local Tab = Window:MakeTab({
