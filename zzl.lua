@@ -799,51 +799,6 @@ Tab:AddButton({
 })
 
 local Tab = Window:MakeTab({
-	Name = "手臂摔跤",
-	Icon = "rbxassetid://11648246803",
-	PremiumOnly = false
-})
-
-Tab:AddButton({  
-    Name = "1",
-	Callback = function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/KrzysztofHub/script/main/loader.lua"))()
-	end
-})
-
-Tab:AddButton({
-	Name = "地图传送",
-	Callback = function()
-	loadstring(game:HttpGet('https://pastebin.com/raw/EurtBNj7'))()
-  	end
-})
-
-local Tab = Window:MakeTab({
-	Name = "兵工厂",
-	Icon = "rbxassetid://11648246803",
-	PremiumOnly = false
-})
-
-Tab:AddButton({
-  Name = "兵工厂",
-  Callback = function()
-    loadstring(game:HttpGet(('https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init'), true))()
-  end
-})
-local Tab = Window:MakeTab({
-	Name = "one fruit",
-	Icon = "rbxassetid://11648246803",
-	PremiumOnly = false
-})
-
-Tab:AddButton({
-  Name = "one fruit",
-  Callback = function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/13B8B/NEXUS/main/loadstring'))()
-  end
-})
-
-local Tab = Window:MakeTab({
 	Name = "伐木大亨",
 	Icon = "rbxassetid://11648246803",
 	PremiumOnly = false
@@ -853,46 +808,6 @@ Tab:AddButton({
   Name = "伐木大亨",
   Callback = function()
     loadstring(game:HttpGet("https://pastebin.com/raw/FBXG1hhk",true))()
-  end
-})
-
-local Tab = Window:MakeTab({
-	Name = "元素地下城",
-	Icon = "rbxassetid://11648246803",
-	PremiumOnly = false
-})
-
-Tab:AddButton({
-  Name = "1",
-  Callback = function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/PrimeExoHub/PrimeExo-Hub-Elemental-Dungeons/main/Script"))()
-  end
-})
-
-local Tab = Window:MakeTab({
-	Name = "水果战场",
-	Icon = "rbxassetid://11648246803",
-	PremiumOnly = false
-})
-
-Tab:AddButton({
-  Name = "1",
-  Callback = function()
-    loadstring(game:HttpGet(('https://raw.githubusercontent.com/noSkidlol/Roblox/main/LOADING_UI')))()
-  end
-})
-
-Tab:AddButton({
-	Name = "复制卡密",
-	Callback = function()
-     setclipboard("Key_Illlll1llll")
-  	end
-})
-
-Tab:AddButton({
-  Name = "1",
-  Callback = function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/PrimeExoHub/PrimeExo-Hub-Fruit-Battlegrounds-V1/main/script"))()
   end
 })
 
@@ -932,32 +847,6 @@ Tab:AddButton({
   Name = "1",
   Callback = function()
     loadstring(game:HttpGet("https://roflux.net/scripts/games/" .. tostring(game.PlaceId) .. ".lua"))()
-  end
-})
-
-local Tab = Window:MakeTab({
-	Name = "race click",
-	Icon = "rbxassetid://11648246803",
-	PremiumOnly = false
-})
-
-Tab:AddButton({
-  Name = "1",
-  Callback = function()
-    loadstring(game:HttpGet(('https://raw.githubusercontent.com/Saaakai/Random-Roblox-Script/main/Race%20Clicker')))()
-  end
-})
-
-local Tab = Window:MakeTab({
-	Name = "scp 3008",
-	Icon = "rbxassetid://11648246803",
-	PremiumOnly = false
-})
-
-Tab:AddButton({
-  Name = "1",
-  Callback = function()
-    loadstring(game:HttpGet(('https://pastebin.com/raw/8JY69pFp')))()
   end
 })
 
