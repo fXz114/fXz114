@@ -236,6 +236,13 @@ Tab:AddButton({
 	end
 })
 
+Tab:AddButton({  
+    Name = "自瞄（全游戏通用）",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/FFJ1/Roblox-Exploits/main/scripts/aimbot.lua"))()
+	end
+})
+
 Tab:AddButton({
     Name = "无限跳",
 	Callback = function()
