@@ -6,8 +6,6 @@ elseif game.PlaceId == 9872472334 then
     loadstring(game:HttpGet("https://pastebin.com/raw/5LWVP5AL"))()
 elseif game.PlaceId == 3101667897 then
     loadstring(game:HttpGet("https://pastebin.com/raw/vE8x0eHm"))()
-elseif game.PlaceId == 73885730 then
-    loadstring(game:HttpGet("https://pastebin.com/raw/nkJWxpw1"))()
 elseif game.PlaceId == 3085257211 then
     loadstring(game:HttpGet("https://pastebin.com/raw/mtzN2YDv"))()
 elseif game.PlaceId == 189707 then
