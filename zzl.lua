@@ -48,11 +48,8 @@ local about = Window:MakeTab({
 })
 
 about:AddParagraph("永远免费")
-about:AddParagraph("适配的游戏有evade 力量传奇 极速传奇 忍者传奇 doors the rake 背上只因剑 bf")
-about:AddParagraph("彩虹朋友 兵工厂 伐木大亨 one fruit 俄亥俄州 监狱人生 手臂摔跤")
-about:AddParagraph("更新：元素地下城 水果战场 蜂群模拟器 法宝模拟器 傻神 杀手vs警长 race clik")
-about:AddParagraph("部分游戏功能已不可用")
-about:AddParagraph("作者qq：3555788945")
+about:AddParagraph("部分垃圾功能已删除，大家可以给我提供一些功能")
+
 
 local Tab = Window:MakeTab({
 	Name = "通用",
@@ -229,13 +226,6 @@ _G.Settings = {
 }
 loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/FPSBooster.lua"))()
      end
-})
-
-Tab:AddButton({
-    Name = "子弹追踪",
-	Callback = function()
-	loadstring(game:HttpGet("https://pastebin.com/raw/8GhR79DA"))()
-   end
 })
 
 Tab:AddButton({  
@@ -661,26 +651,6 @@ end)
   end
 })
 
-local Tab = Window:MakeTab({
-	Name = "其他创作者脚本",
-	Icon = "rbxassetid://11648246803",
-	PremiumOnly = false
-})
-
-Tab:AddButton({  
-    Name = "白脚本（需白明）",
-	Callback = function()
-	_G["白脚本作者修狗"]="xdjhadgdsrfcyefjhsadcctyseyr6432478rudghfvszhxcaheey"loadstring(game:HttpGet(('https://raw.githubusercontent.com/wev666666/baijiaobengV2.0beta/main/%E7%99%BD%E8%84%9A%E6%9C%ACbeta'),true))() 
-	end
-})
-
-Tab:AddButton({  
-    Name = "幻想",
-	Callback = function()
-	--幻想(delta无法使用)
-loadstring(game:HttpGet("\104\116\116\112\115\58\47\47\112\97\115\116\101\98\105\110\46\99\111\109\47\114\97\119\47\88\120\48\119\114\54\120\72"))()
-	end
-})
 
 local Tab = Window:MakeTab({
 	Name = "传奇类游戏",
