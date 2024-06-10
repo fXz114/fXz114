@@ -672,9 +672,9 @@ local Tab = Window:MakeTab({
 })
 
 Tab:AddButton({  
-    Name = "black king",
+    Name = "zzl--doors",
 	Callback = function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/KINGHUB01/BlackKing/main/BlackKingMb"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/fXz114/fXz114/main/doors.txt"))()
 	end
 })
 
