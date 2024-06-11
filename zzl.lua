@@ -741,7 +741,7 @@ local Tab = Window:MakeTab({
 Tab:AddButton({  
     Name = "脚本1",
 	Callback = function()
-	loadstring(game:HttpGet("https://pastebin.com/raw/jrpzDS5p"))()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/rbIxscriptsnet/unfair/main/rblxhub.lua'),true))()
 	end
 })
 
@@ -767,7 +767,7 @@ local Tab = Window:MakeTab({
 Tab:AddButton({  
     Name = "Blox fruit",
 	Callback = function()
-	loadstring(game:HttpGet('https://raw.githubusercontent.com/KindIhave/ChibaHuB/main/Chiba-BF.txt'))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BloxFruits/main/redz9999"))()
 	end
 })
 
